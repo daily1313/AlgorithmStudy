@@ -15,8 +15,11 @@ int main()
         cin>>num;
         v.push_back(num);
     }
+    
     sort(v.begin(),v.end());
+    
     vector<int>result;
+
     for(int i=0;i<n;i++)
     {
         result.push_back(v[i]+v[2*n-(i+1)]);
