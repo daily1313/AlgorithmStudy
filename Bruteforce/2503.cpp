@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
-#include <vector>
 #include <tuple>
+#include <vector>
 #include <cstring>
 #include <string.h>
 
